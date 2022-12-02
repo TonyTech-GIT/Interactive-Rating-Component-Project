@@ -11,6 +11,30 @@ body{
     
 }
 
+a{
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    
+    text-align: center;
+
+    >h3{
+        // margin: 0 auto;
+
+        >a{
+            color: $Orange;
+        }
+
+        >span{
+            color: $Orange;
+        }
+    }
+
+    
+}
+
 .visible{
     display: block;
 }
